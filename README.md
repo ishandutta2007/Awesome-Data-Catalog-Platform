@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Data-Catalog-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Data-Catalog-Platform?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Data-Catalog-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Data-Catalog-Platform?style=flat-square&logo=github&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Data-Catalog-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Data-Catalog-Platform?style=flat-square&logo=github" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Data-Catalog-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Data-Catalog-Platform?style=flat-square&color=blue" alt="License"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Data-Catalog-Platform/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
@@ -63,50 +63,50 @@ Below is a curated comparison of top commercial and managed Data Catalog platfor
 
 ## 🔓 Open-Source GitHub Projects
 
-The open-source data catalog ecosystem offers powerful, production-grade tools. Below are top repositories **sorted strictly by GitHub Star Count (descending)**.
+The open-source data catalog ecosystem offers powerful, production-grade tools. Below are top repositories **sorted strictly by GitHub Stars_Count (descending)**.
 
 1. **[OpenMetadata](https://github.com/open-metadata/OpenMetadata)** 🌟  
-   [![GitHub stars](https://img.shields.io/github/stars/open-metadata/OpenMetadata?style=social&color=white)](https://github.com/open-metadata/OpenMetadata/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/open-metadata/OpenMetadata?style=social&color=white)](https://github.com/open-metadata/OpenMetadata/stargazers)  
    *Unified open-source metadata platform providing schemas, data lineage, data quality metrics, business glossaries, and comprehensive REST/gRPC APIs out of the box.*
 
 2. **[DataHub](https://github.com/datahub-project/datahub)** 🔭  
-   [![GitHub stars](https://img.shields.io/github/stars/datahub-project/datahub?style=social&color=white)](https://github.com/datahub-project/datahub/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/datahub-project/datahub?style=social&color=white)](https://github.com/datahub-project/datahub/stargazers)  
    *Extensible open-source metadata platform originally developed by LinkedIn for real-time metadata ingestion, continuous column-level lineage, graph-based discovery, and search.*
 
 3. **[CKAN](https://github.com/ckan/ckan)** 🌐  
-   [![GitHub stars](https://img.shields.io/github/stars/ckan/ckan?style=social&color=white)](https://github.com/ckan/ckan/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/ckan/ckan?style=social&color=white)](https://github.com/ckan/ckan/stargazers)  
    *The world's leading open-source data portal platform used by governments, public institutions, and open-data initiatives globally for cataloging and publishing datasets.*
 
 4. **[Amundsen](https://github.com/amundsen-io/amundsen)** 🧭  
-   [![GitHub stars](https://img.shields.io/github/stars/amundsen-io/amundsen?style=social&color=white)](https://github.com/amundsen-io/amundsen/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/amundsen-io/amundsen?style=social&color=white)](https://github.com/amundsen-io/amundsen/stargazers)  
    *Lightweight data discovery and metadata engine created at Lyft to improve analyst productivity by indexing data assets and query patterns.*
 
 5. **[SchemaSpy](https://github.com/schemaspy/schemaspy)** 🕸️  
-   [![GitHub stars](https://img.shields.io/github/stars/schemaspy/schemaspy?style=social&color=white)](https://github.com/schemaspy/schemaspy/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/schemaspy/schemaspy?style=social&color=white)](https://github.com/schemaspy/schemaspy/stargazers)  
    *Java-based database metadata analyzer that generates HTML visual diagrams and schema reports covering tables, keys, relationships, and data structure cardinality.*
 
 6. **[Apache Gravitino](https://github.com/apache/gravitino)** 🌌  
-   [![GitHub stars](https://img.shields.io/github/stars/apache/gravitino?style=social&color=white)](https://github.com/apache/gravitino/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/apache/gravitino?style=social&color=white)](https://github.com/apache/gravitino/stargazers)  
    *High-performance, open-source multi-catalog federated metadata service providing unified data governance across cloud stores, relational databases, and AI data lakes.*
 
 7. **[OpenLineage](https://github.com/OpenLineage/OpenLineage)** 🔗  
-   [![GitHub stars](https://img.shields.io/github/stars/OpenLineage/OpenLineage?style=social&color=white)](https://github.com/OpenLineage/OpenLineage/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/OpenLineage/OpenLineage?style=social&color=white)](https://github.com/OpenLineage/OpenLineage/stargazers)  
    *An open standard and framework for collecting operational lineage metadata from data pipelines, Spark jobs, Airflow DAGs, and dbt models.*
 
 8. **[Marquez](https://github.com/MarquezProject/marquez)** 📉  
-   [![GitHub stars](https://img.shields.io/github/stars/MarquezProject/marquez?style=social&color=white)](https://github.com/MarquezProject/marquez/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/MarquezProject/marquez?style=social&color=white)](https://github.com/MarquezProject/marquez/stargazers)  
    *Open-source metadata management service focused on dataset availability, job run tracking, and operational lineage; serves as the reference implementation of OpenLineage.*
 
 9. **[Apache Atlas](https://github.com/apache/atlas)** 🐘  
-   [![GitHub stars](https://img.shields.io/github/stars/apache/atlas?style=social&color=white)](https://github.com/apache/atlas/stargazers)  
+   [![GitHub_Stars](https://img.shields.io/github/stars/apache/atlas?style=social&color=white)](https://github.com/apache/atlas/stargazers)  
    *Enterprise-grade open-source metadata governance framework deeply integrated into Apache Hadoop, Apache Hive, and traditional big data stacks.*
 
 10. **[Spline](https://github.com/AbsaOSS/spline)** ⚡  
-    [![GitHub stars](https://img.shields.io/github/stars/AbsaOSS/spline?style=social&color=white)](https://github.com/AbsaOSS/spline/stargazers)  
+    [![GitHub_Stars](https://img.shields.io/github/stars/AbsaOSS/spline?style=social&color=white)](https://github.com/AbsaOSS/spline/stargazers)  
     *Automated data lineage tracking engine designed specifically for Apache Spark jobs and complex data processing pipelines.*
 
 11. **[Magda](https://github.com/magda-io/magda)** 🇦🇺  
-    [![GitHub stars](https://img.shields.io/github/stars/magda-io/magda?style=social&color=white)](https://github.com/magda-io/magda/stargazers)  
+    [![GitHub_Stars](https://img.shields.io/github/stars/magda-io/magda?style=social&color=white)](https://github.com/magda-io/magda/stargazers)  
     *Open-source federated data catalog system built for cloud-native deployment, multi-source ingestion, and automated metadata harvest.*
 
 ---
