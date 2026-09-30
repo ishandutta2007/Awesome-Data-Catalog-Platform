@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <linearGradient id="accent-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <linearGradient id="text-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulse-node {
+      0%, 100% { transform: scale(1); opacity: 0.6; }
+      50% { transform: scale(1.25); opacity: 1; }
+    }
+    @keyframes dash-flow {
+      to { stroke-dashoffset: -40; }
+    }
+    @keyframes float-pill {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
+    .node-1 { animation: pulse-node 3s infinite ease-in-out; transform-origin: 200px 100px; }
+    .node-2 { animation: pulse-node 4s infinite ease-in-out 1s; transform-origin: 1000px 120px; }
+    .node-3 { animation: pulse-node 3.5s infinite ease-in-out 0.5s; transform-origin: 900px 280px; }
+    .line-flow { stroke-dasharray: 8 12; animation: dash-flow 2s linear infinite; }
+    .pill-1 { animation: float-pill 4s infinite ease-in-out; }
+    .pill-2 { animation: float-pill 4.5s infinite ease-in-out 1s; }
+    .pill-3 { animation: float-pill 5s infinite ease-in-out 0.5s; }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bg-gradient)" rx="16" />
+
+  <!-- Animated Background Network Lines & Graph Elements -->
+  <g opacity="0.3">
+    <line x1="200" y1="100" x2="400" y2="180" stroke="#6366f1" stroke-width="2" class="line-flow" />
+    <line x1="1000" y1="120" x2="850" y2="200" stroke="#a855f7" stroke-width="2" class="line-flow" />
+    <line x1="900" y1="280" x2="700" y2="220" stroke="#ec4899" stroke-width="2" class="line-flow" />
+    
+    <circle cx="200" cy="100" r="14" fill="#6366f1" class="node-1" />
+    <circle cx="1000" cy="120" r="18" fill="#a855f7" class="node-2" />
+    <circle cx="900" cy="280" r="15" fill="#ec4899" class="node-3" />
+  </g>
+
+  <!-- Dynamic Decorative Floating Feature Pills (Background layer) -->
+  <g class="pill-1" opacity="0.4">
+    <rect x="120" y="260" width="160" height="36" rx="18" fill="#1e293b" stroke="#6366f1" stroke-width="1.5" />
+    <text x="200" y="283" fill="#818cf8" font-family="system-ui, sans-serif" font-size="13" font-weight="600" text-anchor="middle">Metadata Lineage</text>
+  </g>
+
+  <g class="pill-2" opacity="0.4">
+    <rect x="920" y="60" width="160" height="36" rx="18" fill="#1e293b" stroke="#a855f7" stroke-width="1.5" />
+    <text x="1000" y="83" fill="#c084fc" font-family="system-ui, sans-serif" font-size="13" font-weight="600" text-anchor="middle">Active Governance</text>
+  </g>
+
+  <g class="pill-3" opacity="0.4">
+    <rect x="860" y="320" width="170" height="36" rx="18" fill="#1e293b" stroke="#ec4899" stroke-width="1.5" />
+    <text x="945" y="343" fill="#f472b6" font-family="system-ui, sans-serif" font-size="13" font-weight="600" text-anchor="middle">Data Discovery</text>
+  </g>
+
+  <!-- Accent Line Divider under Title Area -->
+  <rect x="350" y="235" width="500" height="4" rx="2" fill="url(#accent-glow)" filter="url(#glow)" />
+
+  <!-- FOREGROUND TEXT (Prominent, High Contrast, Always Visible) -->
+  <g text-anchor="middle">
+    <!-- Icon / Symbol -->
+    <text x="600" y="110" font-size="42">🗂️</text>
+
+    <!-- Main Title -->
+    <text x="600" y="175" fill="url(#text-gradient)" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="800" letter-spacing="-0.5">Awesome Data Catalog Platforms</text>
+
+    <!-- Subtitle -->
+    <text x="600" y="215" fill="#94a3b8" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="500">The Ultimate Ecosystem Guide to SaaS &amp; Open-Source Data Catalog Tools</text>
+
+    <!-- Tagline pills in foreground -->
+    <text x="600" y="280" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14" font-weight="600">
+      ⚡ Data Lineage  •  🔒 Governance  •  🔍 Context Layers  •  📊 Metadata Management
+    </text>
+  </g>
+</svg>
